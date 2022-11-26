@@ -1,0 +1,47 @@
+.snow-fall{
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    margin-top: -60px;
+    left:var(--left);
+    background-color: white;
+    filter: blur(2px);
+    animation: falling-down 5s var(--delay) infinite linear forwards;
+    z-index: 5;
+}
+.snow-fall2{
+    z-index:15
+}
+@keyframes falling-down{
+    0%{
+        transform: translate(0vw, 0vh);
+    }
+    10%{
+        transform: translate(0.5vw, 12vh);
+    }
+    20%{
+        transform: translate(-0.5vw, 24vh);
+    }
+    30%{
+        transform: translate(0.5vw, 36vh);
+    }
+    40%{
+        transform: translate(-0.5vw, 48vh);
+    }
+    50%{
+        transform: translate(0.5vw, 60vh);
+    }
+    60%{
+        transform: translate(-0.5vw,72vh);
+    }
+    70%{
+        transform: translate(0.5vw, 84vh);
+    }
+    80%{
+        transform: translate(0vw, 100vh);
+    }
+    100%{
+        transform: translate(0vw, 100vh);
+    }
+}
