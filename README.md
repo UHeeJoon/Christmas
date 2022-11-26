@@ -1,5 +1,5 @@
 # Christmas
-크리스마스 기녕!
+크리스마스 기념!
 
 
 ### christmasTree2D
